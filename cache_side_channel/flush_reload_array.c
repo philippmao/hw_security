@@ -56,7 +56,6 @@ int main(int argc, char** argv){
     for(int i=0;i<200000;i++){
       i++;
     }
-    junk_array[0] = "a";
     for(int i=0;i<256;i++){
       j = ((i*167) + 13) & 255;
       diff = get_access_time(&test_array[TEST_SIZE*j]);
